@@ -1,0 +1,184 @@
+/*
+
+	colors used:
+		grays:		black, white
+		reds:		firebrick,
+		greens:		
+		blues:		
+
+*/
+
+body {
+	background-color: black;
+}
+
+header figure img, footer figure img {
+	border: 1px solid white;
+}
+
+a {
+	color: #306639;
+}
+
+a:hover {
+	color: #28a745;
+}
+
+.table th {
+	background-color: whitesmoke;
+	border: none;
+}
+
+.alert-info {
+	color: blue;
+}
+
+	.alert-info .badge-dark {
+		background-color: blue;
+	}
+	
+	.alert-info .badge-dark:hover {
+		background-color: mediumblue;
+	}
+
+.block {
+	background-color: white;
+	margin-bottom: 1em;
+}
+
+	.block blockquote {
+		background-color: gainsboro;
+	}
+
+.anarchy-quote {
+	background-color: #cfe9d3;
+}
+
+nav#community {
+	background-color: #333;
+}
+
+nav#community a.active {
+	color: white;
+}
+
+nav#community a {
+	color: gray;
+}
+
+#community-mobile {
+	background-color: #333;
+}
+
+.sidebar {
+	background-color: #cfe9d3;
+}
+
+.htsmc-pm-block {
+	padding-top: 0;
+}
+
+	.htsmc-pm-block .form-group:first-child, .htsmc-pm-block .form-group:nth-child(3) {
+		background-color: whitesmoke;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+.alert-block {
+	background-color: #cfe9d3;
+	border: 1px dotted green;
+}
+
+.badge-settings {
+	background-color: green;
+	color: white;
+}
+
+.badge-settings:hover {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.badge-logout {
+	background-color: firebrick;
+	color: white;
+}
+
+.badge-logout:hover {
+	background-color: indianred;
+	color: white;
+}
+
+.badge-blog-author {
+	background-color: green;
+	color: white;
+}
+
+.badge-blog-author:hover {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.badge-comment-author {
+	background-color: gainsboro;
+}
+
+.text-complete {
+	color: green;
+}
+
+.text-incomplete {
+	color: firebrick;
+}
+
+.btn-custom {
+	background-color: green;
+	color: white;
+}
+
+.btn-custom:hover {
+	background-color: yellowgreen;
+	color: white;
+}
+
+.btn-custom-dark {
+	background-color: gainsboro;
+}
+
+.btn-custom-dark:hover {
+	background-color: silver;
+}
+
+.modal-window-dialog .modal-window-content {
+	background-color: #cfe9d3;
+}
+
+#skin-chooser .modal-window-content {
+	background-color: #cfe9d3;
+	padding: 1em;
+}
+
+.modal-foot {
+	border-top: 1px solid #afcfbf;
+	padding-top: 1em;
+}
+
+#skin-chooser h5 {
+	border-bottom: 1px solid #afcfbf;
+}
+
+.sidebar article:not(:last-child) {
+	border-bottom: 1px solid darkseagreen;
+}
+
+@media only screen and (any-pointer: coarse) and (max-width: 576px) {
+
+	.sidebar article:not(:last-child) {
+		border-bottom: 1px solid #afcfbf;
+	}
+	
+	.mission-block h5 {
+		border-bottom: 1px solid #777;
+	}
+
+}

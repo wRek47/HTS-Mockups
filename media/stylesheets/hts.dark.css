@@ -1,0 +1,309 @@
+/*
+
+	colors used:
+		grays:	0a0a0a, 111, 161616, 1a1a1a, 222, 333, 444, 555, 777, bbb, white
+		blues:	116, 13f, 33f, 68f
+
+*/
+
+body {
+	background-color: #161616;
+	color: #777;
+}
+
+a {
+	color: #777;
+}
+
+a:hover {
+	color: #68f;
+	text-decoration: none;
+}
+
+a.active {
+	color: #68f;
+}
+
+a.active:hover {
+	color: #33f;
+}
+
+.half-rule {
+	border-color: #1a1a1a;
+}
+
+.table th {
+	background-color: #111;
+	border: none;
+	color: #777;
+}
+
+.table thead th {
+	border-bottom: 1px solid #777;
+}
+
+.table td {
+	background-color: #222;
+	border-color: #1a1a1a;
+	color: #777;
+}
+
+.alert-info {
+	background-color: #555;
+	border-color: #777;
+	color: #1a1a1a;
+}
+
+#community a.active {
+	color: #33f;
+}
+
+#community a.active:hover {
+	color: #68f;
+}
+
+form .form-control {
+	background-color: #111;
+	border-color: #0a0a0a;
+	color: #777;
+}
+
+form .form-control:hover, form .form-control:focus {
+	background-color: #161616;
+}
+
+form .custom-checkbox {
+	background-color: #111;
+}
+
+nav#community {
+	background-color: #111;
+}
+
+#community-mobile {
+	background-color: #111;
+}
+
+.site-footer a {
+	color: #68f;
+}
+
+.site-footer a:hover {
+	color: #33f;
+}
+
+.sidebar { }
+
+	.sidebar article {
+		background-color: #111;
+	}
+	
+	.sidebar .sidebar-profile {
+		background-color: #111;
+	}
+		
+		.sidebar .sidebar-profile .badge-settings {
+			background-color: #33f;
+			border-bottom: none;
+			color: white;
+		}
+		
+		.sidebar .sidebar-profile .badge-settings:hover {
+			background-color: #116;
+		}
+		
+		.sidebar .sidebar-profile .badge-logout {
+			background-color: #444;
+			border-bottom: none;
+			color: white;
+		}
+		
+		.sidebar .sidebar-profile .badge-logout:hover {
+			background-color: #777;
+		}
+		
+			.sidebar .sidebar-panel .nav-list a {
+				border-bottom: none;
+				text-decoration: underline dotted #33f;
+			}
+	
+	.sidebar a {
+		border-bottom: 1px dotted #33f;
+	}
+
+.anarchy-quote {
+	background-color: #111;
+	border: 1px solid #222;
+}
+
+.block {
+	background-color: #222;
+}
+
+.border {
+	border-color: #0a0a0a !important;
+}
+
+.home {
+}
+
+	.home .home-intro a {
+		text-decoration: underline dotted #33f;
+	}
+	
+	.home .home-intro figure img {
+		border: 1px solid #111;
+	}
+
+.settings p {
+	margin-bottom: 0;
+}
+
+.alert-block {
+	background-color: #1a1a1a;
+	border: 1px dotted #111;
+}
+
+.alert-block-highlight {
+	background-color: #333;
+	border: 1px dotted #111;
+}
+
+	.alert-block a {
+		text-decoration: underline dotted #33f;
+	}
+	
+	.alert-block article:not(:last-child) {
+		border-bottom: 1px dotted #777;
+	}
+
+.profile {
+}
+
+	.badge-comment-author, .badge-mission-points {
+		background-color: #555;
+		color: #bbb;
+	}
+	
+	.badge-comment-author a {
+		color: #116;
+	}
+	
+	.badge-comment-author a:hover {
+		color: #68f;
+	}
+	
+	.badge-blog-author {
+		background-color: #13f;
+		color: white;
+	}
+	
+	.badge-blog-author:hover {
+		background-color: #68f;
+		color: white;
+	}
+
+.missions h5 {
+	border-bottom: 1px solid #1a1a1a;
+}
+
+.missions h4 a, .missions h5 a {
+	color: #68f;
+}
+
+.missions h4 a:hover, .missions h5 a:hover {
+	color: #13f;
+}
+
+.missions blockquote {
+	background-color: #333;
+}
+
+.blogs .card, .rankings .card {
+	background-color: #444;
+}
+
+.blogs .card-header, .rankings .card-header {
+	background-color: #111;
+	color: #aaa;
+}
+
+.blogs .card-body, .rankings .card-body {
+	color: #aaa;
+}
+
+.blogs .card-footer {
+	background-color: #333;
+	border-color: #1a1a1a;
+}
+
+	.blogs .card-footer a {
+		color: #68f;
+	}
+	
+	.blogs .card-footer a:hover, .blogs .card-footer a:focus {
+		color: #13f;
+	}
+
+.text-complete {
+	color: #13f;
+}
+
+.text-incomplete {
+	color: white;
+}
+
+.btn-custom {
+	background-color: #13f;
+	border: 1px solid transparent;
+	color: white;
+}
+
+	.btn-custom:hover, .btn-custom:focus {
+		background-color: #116;
+		border: 1px solid #111;
+		color: white;
+	}
+
+.btn-custom-dark {
+	background-color: #111;
+	border: 1px solid transparent;
+	color: white;
+}
+
+	.btn-custom-dark:hover, .btn-custom-dark:focus {
+		background-color: #1a1a1a;
+		border: 1px solid #111;
+		color: white;
+	}
+
+.modal-window-dialog .modal-window-content {
+	background-color: #111;
+	padding: 1em;
+}
+
+#skin-chooser .modal-window-content {
+	background-color: #111;
+	padding: 1em;
+}
+
+#skin-chooser a {
+	text-decoration: underline dotted #13f;
+}
+
+#skin-chooser h5 {
+	border-bottom: 1px solid #222;
+}
+
+.modal-foot {
+	border-top: 1px solid #222;
+	padding-top: 1em;
+}
+
+@media only screen and (any-pointer: fine) and (min-width: 576px) {
+
+	.profile .profile-contributions {
+		border-left: 1px solid #1a1a1a;
+	}
+
+}
